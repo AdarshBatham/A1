@@ -5,8 +5,8 @@
       <a href="#">
         <img class="avatar border-gray" src="static/img/faces/face-3.jpg" alt="..."/>
 
-        <h4 class="title">Mike Andrew<br />
-          <small>michael24</small>
+        <h4 class="title">Adarsh Batham<br />
+          <small>Adarsh.Batham</small>
         </h4>
       </a>
     </div>
