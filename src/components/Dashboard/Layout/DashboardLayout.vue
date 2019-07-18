@@ -32,7 +32,8 @@
       </sidebar-link>
     </side-bar>
     <div class="main-panel">
-      <top-navbar></top-navbar>
+      <top-bar></top-bar>
+      <!-- <top-navbar></top-navbar> -->
 
       <dashboard-content @click="toggleSidebar">
 
@@ -46,13 +47,15 @@
 
 </style>
 <script>
-  import TopNavbar from './TopNavbar.vue'
+  // import TopNavbar from './TopNavbar.vue'
+  import TopBar from './TopBar.vue'
   import ContentFooter from './ContentFooter.vue'
   import DashboardContent from './Content.vue'
   import MobileMenu from './MobileMenu.vue'
   export default {
     components: {
-      TopNavbar,
+      // TopNavbar,
+      TopBar,
       ContentFooter,
       DashboardContent,
       MobileMenu
